@@ -5,7 +5,7 @@
 // undefined should return Not a Number
 //P: write a function that convert number to array of digit
 function reverseArrayOfDigit(n){
-    // convert given number to stirng than split it after that reverse it and convert is to number
+    // convert num to string than split it after that reverse it and lastly again convert it to number
     return n.toString().split('').reverse().map(Number)
 }
 
