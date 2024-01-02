@@ -1,5 +1,5 @@
 //P: if the given parameter is undefined ? what to do? is the parameter number
-//R: Array of Number
+//R: Array of Number from number
 //E: 330 should return [0,3,3]
 // 0 should return [0]
 // undefined should return Not a Number
