@@ -1,6 +1,8 @@
 function double(arr){
-    for(let i = 0; i < arr.length; i++){
-        return arr[i] * 2
+    if(arr.length === 0 || arr === undefined){
+        return 'Array is invalid'
+    }else{
+        return arr.map(item => item * 2)
     }
 }
 
