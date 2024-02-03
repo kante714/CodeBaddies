@@ -1,5 +1,5 @@
 // return true is sum of squares of array is greater than sum of cubes of array 
-//P: is the parameter an array
+//P: is the parameter an array . what if it return undefined or NaN
 //R: boolean value of true and false 
 //E: [4,8,9], [1,2,3]) should return  true
 // [4,8,9], [8,4,9]) should return  false
