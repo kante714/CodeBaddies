@@ -1,5 +1,10 @@
 // return true is sum of squares of array is greater than sum of cubes of array 
-
+//P: is the parameter an array
+//R: boolean value of true and false 
+//E: [4,8,9], [1,2,3]) should return  true
+// [4,8,9], [8,4,9]) should return  false
+// [7,3,2], [1,4,2]) should return true
+//P: write a function to get sum of squares of array is greater than sum of cubes of array
 function greaterThan(a, b){
     let sumOfSquares = a.reduce((sum, num) => sum + num ** 2, 0)
     let sumOfCubes = b.reduce((sum, num) => sum + num ** 3, 0)
