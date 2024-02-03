@@ -1,6 +1,6 @@
 // return true is sum of squares of array is greater than sum of cubes of array 
 //P: is the parameter an array . what if it return undefined or NaN
-//R: return true if sum of squares is greter than sum of cubes else return false
+//R: return true if sum of squares is greater than sum of cubes else return false
 //E: [4,8,9], [1,2,3]) should return  true
 // [4,8,9], [8,4,9]) should return false
 // [7,3,2], [1,4,2]) should return true
@@ -14,3 +14,4 @@ function greaterThan(a, b){
 console.log(greaterThan([4,8,9], [1,2,3]), true)
 console.log(greaterThan([4,8,9], [8,4,9]), false)
 console.log(greaterThan([7,3,2], [1,4,2]), true)
+
