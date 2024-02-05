@@ -19,8 +19,7 @@
 // Output: -2.398;
 
 // Solution
-// Sum Numbers
-function sum (numbers) {
+function sum(numbers) {
     "use strict";
     return  numbers.length === 0 ? 0 : numbers.reduce((sum , num) => sum + num, 0)
 };
